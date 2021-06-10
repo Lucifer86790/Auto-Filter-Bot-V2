@@ -78,7 +78,7 @@ async def filter(client: Bot, message: Message):
         )
 
         await message.reply_text(
-                f"<b> Here is the result for {message.text}</b>",
+                f"<b><b> Showing Result For {message.text}\n</b><a href='https://t.me/AllMoviesAskForMovies/305500'>If Not Opening Click Here</a></b>",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )    
 
