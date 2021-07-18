@@ -62,7 +62,7 @@ async def filter(client: Bot, message: Message):
                 [InlineKeyboardButton(text="📄 Pages 1/1",callback_data="pages")]
             )
             await message.reply_text(
-                f"<b> Showing Result For {message.text}\n\n<a href='https://t.me/c/1456926510/468433'>\n\n⚠️If Not Opening Click Here⚠️</a></b>",
+                f"<b> Showing Result For {message.text}\n\n<a href='https://t.me/c/1456926510/468502'>\n\n⚠️If Not Opening Click Here⚠️</a></b>",
                 reply_markup=InlineKeyboardMarkup(buttons),disable_web_page_preview=True
             )
             return
@@ -78,7 +78,7 @@ async def filter(client: Bot, message: Message):
         )
 
         await message.reply_text(
-                f"<b>Showing Result For {message.text}\n<a href='https://t.me/c/1456926510/468433'>\n\n⚠️If Not Opening Click Here⚠️</a></b>",
+                f"<b>Showing Result For {message.text}\n<a href='https://t.me/c/1456926510/468502'>\n\n⚠️If Not Opening Click Here⚠️</a></b>",
                 reply_markup=InlineKeyboardMarkup(buttons),disable_web_page_preview=True
             )    
 
@@ -169,7 +169,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("HELP", callback_data="help_data"),
                     InlineKeyboardButton("ABOUT", callback_data="about_data")],
-                [InlineKeyboardButton("⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/Afmstream")]
+                [InlineKeyboardButton("⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/Pdisk_Links_Only")]
             ])
 
             await query.message.edit_text(
